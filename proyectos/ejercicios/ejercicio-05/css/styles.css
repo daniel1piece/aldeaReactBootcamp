@@ -1,0 +1,22 @@
+section {
+    width: 500px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.opcionesMenu {
+    color: blueviolet;
+}
+
+.opcionesInternasMenus {
+    color: orange;
+}
+
+ul {
+    list-style-type: none;
+}
