@@ -1,0 +1,42 @@
+li {
+    font-family: sans-serif;
+}
+
+.completada {
+    color: #aaa;
+    text-decoration: line-through;
+}
+
+#urgente {
+    color: red;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+ul li::before {
+    content: "✔️";
+    color: green;
+    margin-right: 6px;
+}
+
+ul li:nth-child(1)::before,
+ul li:nth-child(2)::before {
+    content: "❌";
+    color: red;
+    margin-right: 6px;
+}
+
+
+li {
+    padding: 10px;
+}
+
+.todo-list {
+    display: flex;
+    justify-content: center;
+}

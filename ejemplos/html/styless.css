@@ -1,7 +1,64 @@
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
 table, th, td {
   text-align: center;
   border: 1px solid black;
   border-collapse: collapse;
   padding: 5px;
   margin: 0 auto;
+}
+
+.formulario {
+ margin-top: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: rgb(231, 221, 221);
+ font-weight: 600;
+ font-size: 20px;
+}
+
+form {
+  border: 1px rgb(22, 146, 196) solid;
+  border-radius: 6px;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  background-color: #6969d8;
+}
+
+input {
+  display: block;
+  padding: 5px;
+  margin: 6px;
+  border-radius: 3px;
+  border: none;
+}
+
+.submit {
+  border-radius: 6px;
+  border: none;
+  margin-top: 10px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.question {
+  color: rgb(231, 221, 221);
+}
+.question > input {
+  display: inline-block;
+  margin: 10px;
+}
+.question > label {
+  margin-right: 20px;
+}
+
+.survey {
+  
 }

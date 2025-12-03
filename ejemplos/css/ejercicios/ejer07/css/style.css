@@ -1,0 +1,20 @@
+.producto {
+    width: 300px;
+    border: 1px  solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+}
+
+button {
+    margin: 15px 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}

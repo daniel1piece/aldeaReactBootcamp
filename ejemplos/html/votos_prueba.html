@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votos de prueba</title>
+</head>
+<body>
+    <form action="votos_prueba.php">
+        <label for="edad">Edad:</label>
+        <input type="number" name="edad" id="age" min="18" max="100">
+        <label for="codigo_electoral">Codigo Electoral:</label>
+        <input type="text" maxlength="10" name="codigo_electoral" id="codigo_electoral">
+        <label for="comentarios">Comentarios</label>
+        <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+        <label for="nombrecompleto">Nombre Completo:</label>
+        <input type="text" name="nombrecompleto" id="nombrecompleto" required>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

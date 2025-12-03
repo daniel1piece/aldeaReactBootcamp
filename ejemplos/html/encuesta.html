@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styless.css">
+    <title>Encuesta</title>
+</head>
+<body>
+    <form action="survery_form.php" method="post" class="survey">
+        <div class="question">
+            <label for="">Niveles de Satisfaccion: </label>
+            <label for="satisfactionLevel">Bueno</label>
+            <input type="radio" name="satisfactionLevel">
+            <label for="satisfactionLevel">Regular</label>
+            <input type="radio" name="satisfactionLevel">
+            <label for="satisfactionLevel">Malo</label>
+            <input type="radio" name="satisfactionLevel">
+        </div>
+        <div class="question">
+            <label for="">Que servicio uso?</label>
+            <label for="wifi">Wifi</label>
+            <input type="checkbox" name="wifi">
+            <label for="cafeteria">cafeteria</label>
+            <input type="checkbox" name="cafeteria">
+            <label for="parking">Parking</label>
+            <input type="checkbox" name="parking">
+        </div>
+        <div  class="question">
+            <label for="location">Sucursal: </label>
+            <select name="location" id="">
+                <option value="soyapango">Soyapango</option>
+                <option value="sanbenito">San Benito</option>
+                <option value="lalibertad">La Libertad</option>
+            </select>
+        </div>
+        <div class="question">
+            <label for="comments">Comentarios</label>
+            <textarea name="comments" id="comments" rows="5" cols="4"></textarea>
+        </div>
+    </form>
+</body>
+</html>
