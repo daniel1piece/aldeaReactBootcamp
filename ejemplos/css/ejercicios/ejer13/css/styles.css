@@ -1,0 +1,21 @@
+.podio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.corredor {
+    border: 2px solid goldenrod;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: azure;
+    color: lightslategrey;
+}
+
+.maria {
+    background-color: gold;
+    order: -1;
+}

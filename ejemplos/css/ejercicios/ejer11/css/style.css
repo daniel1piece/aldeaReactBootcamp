@@ -1,0 +1,13 @@
+.banner {
+    height: 300px;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center; /* Moves the items of the containerr horizontally */
+    align-items: center;  /* Moves the items of the containerr vertically */
+}
+
+h1 {
+    color: wheat;
+}

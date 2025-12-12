@@ -1,0 +1,13 @@
+.cuadro {
+    width: 200px;
+    height: 200px;
+    background-color: lightslategray;
+    position: relative;
+}
+
+.mosca {
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    bottom: 0;
+}
